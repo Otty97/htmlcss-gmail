@@ -1,0 +1,88 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  margin-left: 40px;
+  margin-top: 20px
+
+}
+
+
+
+#logo-gm{
+  height: 70px;
+  vertical-align: middle;
+
+}
+
+#logoname{
+  color: white
+
+}
+
+#button{
+
+}
+
+h2{
+  color: white
+}
+hr{
+  color: white
+}
+.unreads{
+  font-size: 32px;
+  line-height: 62px;
+}
+.unreads > span {
+  background-color: orange;
+ padding: 15px;
+ border-radius: 50%;
+ vertical-align: middle;
+
+}
+
+.email-row {
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.email-row.read {
+  background: white;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.email-text {
+  color: gray;
+}
+
+.email-text::before {
+  content: "- ";
+
+}
+
+.email-text::after {
+  content: "... ";
+}
+
+.footer{
+  text-align: center;
+}
+
+
+#footer{
+  font-style: normal;
+  color: white
+
+}
+
+#footername{
+  font-style: oblique;
+  color: white
+}
